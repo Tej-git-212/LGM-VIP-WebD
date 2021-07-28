@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+  }
+  
+  .navbar {
+    color: #000;
+    background-image: linear-gradient(to left, rgb(133, 235, 248), rgb(14, 78, 173), rgb(7, 4, 46));
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navbar button.getusers {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    background-color: rgb(66, 12, 92);
+    cursor: pointer;
+  }
+  
+  .navbar button.getusers:hover {
+    font-size:25px;
+  }
+
+  .navbar a.zippy {
+    font-size: 25px;
+    font-weight: 550;
+    margin: 6px;
+    padding: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: mintcream;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  
