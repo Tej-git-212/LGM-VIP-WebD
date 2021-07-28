@@ -1,0 +1,50 @@
+.cardsbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -120px;
+  }
+  
+  .cardsdiv {
+    min-width: 250px;
+    max-width: 400px;
+    border-radius: 45px;
+    background-color: #0f065f;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .cardsdiv img {
+    border-radius: 50%;
+    border: 5px solid #1be3ee;
+  }
+  
+  .cardsdiv h3 {
+    color: #a1dcee;
+    padding: 25px;
+  }
+
+  .cardsdiv h4 {
+    color: #a1dcee;
+    font-size: 15px;
+  }
+  
+  .cardsdiv:hover {
+    background-color: #095ba8;
+  }
+  
